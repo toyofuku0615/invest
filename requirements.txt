@@ -5,3 +5,6 @@ requests
 PyYAML
 pytz
 pydantic
+yfinance
+pandas
+numpy
