@@ -1,0 +1,28 @@
+signal:
+  impact_threshold: 1.5       # 先行市場の有意な動きの閾値（%）
+  lookback_days: 60           # beta計算の過去日数
+  min_lag_for_signal: 0.2     # 最低未反応度（これ以下は除外）
+  min_total_score: 0.3        # 最低総合スコア
+  max_signals: 10             # 1日に出力する最大シグナル数
+  sector_weights:
+    exact_match: 1.0          # 完全業種一致
+    theme_match: 0.7          # テーマ一致
+    similar: 0.5              # 類似業種
+
+backtest:
+  default_period_days: 180    # デフォルトのバックテスト期間
+  hold_periods: [1, 3, 7]     # 保有期間（日数）
+
+data:
+  us_market_close_jst: "7:00"   # 米国市場終値のJST換算時刻（サマータイム考慮）
+  jp_market_open_jst: "9:00"    # 日本市場開場時刻
+  cache_ttl_minutes: 60          # データキャッシュの有効期間（分）
+
+scoring:
+  # 総合スコア = leading_impact × sector_proximity × lag_response × confidence
+  formula: "multiplicative"   # multiplicative / additive
+  weights:                    # additiveの場合の重み
+    leading_impact: 0.3
+    sector_proximity: 0.25
+    lag_response: 0.3
+    confidence: 0.15

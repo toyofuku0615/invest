@@ -1,0 +1,499 @@
+{
+  "us_stocks": [
+    {
+      "ticker": "NVDA",
+      "name": "NVIDIA",
+      "market": "US",
+      "sector": "semiconductor",
+      "subsector": "GPU/AI Chip",
+      "themes": ["AI", "semiconductor", "data_center"],
+      "description": "AI・データセンター向けGPUの世界最大手"
+    },
+    {
+      "ticker": "AMD",
+      "name": "AMD",
+      "market": "US",
+      "sector": "semiconductor",
+      "subsector": "CPU/GPU",
+      "themes": ["AI", "semiconductor", "data_center"],
+      "description": "CPU・GPU設計の大手半導体企業"
+    },
+    {
+      "ticker": "AMAT",
+      "name": "Applied Materials",
+      "market": "US",
+      "sector": "semiconductor",
+      "subsector": "semiconductor_equipment",
+      "themes": ["semiconductor", "manufacturing"],
+      "description": "半導体製造装置の世界最大手"
+    },
+    {
+      "ticker": "LRCX",
+      "name": "Lam Research",
+      "market": "US",
+      "sector": "semiconductor",
+      "subsector": "semiconductor_equipment",
+      "themes": ["semiconductor", "manufacturing"],
+      "description": "半導体エッチング装置の大手"
+    },
+    {
+      "ticker": "TSMC",
+      "name": "TSMC",
+      "market": "US",
+      "sector": "semiconductor",
+      "subsector": "foundry",
+      "themes": ["semiconductor", "manufacturing", "AI"],
+      "description": "世界最大の半導体受託製造企業"
+    },
+    {
+      "ticker": "JPM",
+      "name": "JPMorgan Chase",
+      "market": "US",
+      "sector": "banking",
+      "subsector": "major_bank",
+      "themes": ["banking", "financial", "interest_rate"],
+      "description": "米国最大の商業銀行"
+    },
+    {
+      "ticker": "BAC",
+      "name": "Bank of America",
+      "market": "US",
+      "sector": "banking",
+      "subsector": "major_bank",
+      "themes": ["banking", "financial", "interest_rate"],
+      "description": "米国大手商業銀行"
+    },
+    {
+      "ticker": "XOM",
+      "name": "ExxonMobil",
+      "market": "US",
+      "sector": "energy",
+      "subsector": "oil_major",
+      "themes": ["energy", "oil", "commodity"],
+      "description": "米国最大の石油メジャー"
+    },
+    {
+      "ticker": "CVX",
+      "name": "Chevron",
+      "market": "US",
+      "sector": "energy",
+      "subsector": "oil_major",
+      "themes": ["energy", "oil", "commodity"],
+      "description": "米国大手石油メジャー"
+    },
+    {
+      "ticker": "F",
+      "name": "Ford Motor",
+      "market": "US",
+      "sector": "auto",
+      "subsector": "automaker",
+      "themes": ["auto", "EV", "manufacturing"],
+      "description": "米国大手自動車メーカー"
+    },
+    {
+      "ticker": "GM",
+      "name": "General Motors",
+      "market": "US",
+      "sector": "auto",
+      "subsector": "automaker",
+      "themes": ["auto", "EV", "manufacturing"],
+      "description": "米国大手自動車メーカー"
+    },
+    {
+      "ticker": "MSFT",
+      "name": "Microsoft",
+      "market": "US",
+      "sector": "tech",
+      "subsector": "software",
+      "themes": ["AI", "cloud", "software"],
+      "description": "クラウド・AI・ソフトウェアの世界最大手"
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Alphabet",
+      "market": "US",
+      "sector": "tech",
+      "subsector": "internet",
+      "themes": ["AI", "cloud", "advertising"],
+      "description": "Google親会社、AI・クラウド大手"
+    }
+  ],
+  "us_etfs": [
+    {
+      "ticker": "SOXX",
+      "name": "iShares Semiconductor ETF",
+      "sector": "semiconductor",
+      "themes": ["semiconductor", "AI"],
+      "description": "米国半導体セクターETF"
+    },
+    {
+      "ticker": "SMH",
+      "name": "VanEck Semiconductor ETF",
+      "sector": "semiconductor",
+      "themes": ["semiconductor", "AI"],
+      "description": "米国半導体セクターETF（SMH）"
+    },
+    {
+      "ticker": "XLK",
+      "name": "Technology Select Sector SPDR",
+      "sector": "tech",
+      "themes": ["tech", "AI", "software"],
+      "description": "S&P500テクノロジーセクターETF"
+    },
+    {
+      "ticker": "XLF",
+      "name": "Financial Select Sector SPDR",
+      "sector": "banking",
+      "themes": ["banking", "financial"],
+      "description": "S&P500金融セクターETF"
+    },
+    {
+      "ticker": "XLE",
+      "name": "Energy Select Sector SPDR",
+      "sector": "energy",
+      "themes": ["energy", "oil"],
+      "description": "S&P500エネルギーセクターETF"
+    },
+    {
+      "ticker": "XLY",
+      "name": "Consumer Discretionary SPDR",
+      "sector": "auto",
+      "themes": ["auto", "consumer", "EV"],
+      "description": "S&P500一般消費財セクターETF（自動車含む）"
+    },
+    {
+      "ticker": "XLV",
+      "name": "Health Care Select Sector SPDR",
+      "sector": "healthcare",
+      "themes": ["healthcare", "pharmaceutical"],
+      "description": "S&P500ヘルスケアセクターETF"
+    },
+    {
+      "ticker": "XLB",
+      "name": "Materials Select Sector SPDR",
+      "sector": "materials",
+      "themes": ["materials", "trading", "commodity"],
+      "description": "S&P500素材セクターETF（商社と連動し易い）"
+    },
+    {
+      "ticker": "XLRE",
+      "name": "Real Estate Select Sector SPDR",
+      "sector": "real_estate",
+      "themes": ["real_estate", "financial"],
+      "description": "S&P500不動産セクターETF"
+    },
+    {
+      "ticker": "XLC",
+      "name": "Communication Services SPDR",
+      "sector": "telecom",
+      "themes": ["telecom", "tech", "entertainment"],
+      "description": "S&P500通信サービスセクターETF"
+    }
+  ],
+  "us_indices": [
+    {"ticker": "^GSPC", "name": "S&P 500", "description": "米国S&P500指数"},
+    {"ticker": "^IXIC", "name": "NASDAQ Composite", "description": "米国NASDAQ総合指数"},
+    {"ticker": "^DJI", "name": "Dow Jones", "description": "米国ダウ平均株価"},
+    {"ticker": "^SOX", "name": "Philadelphia Semiconductor", "description": "フィラデルフィア半導体株指数"}
+  ],
+  "jp_stocks": [
+    {
+      "ticker": "8035.T",
+      "code": "8035",
+      "name": "東京エレクトロン",
+      "market": "JP",
+      "sector": "semiconductor",
+      "subsector": "semiconductor_equipment",
+      "themes": ["AI", "semiconductor", "manufacturing"],
+      "related_us_tickers": ["AMAT", "LRCX", "NVDA", "AMD"],
+      "related_us_etfs": ["SOXX", "SMH"],
+      "beta_to_soxx": 1.3,
+      "description": "半導体製造装置の世界大手。AI向け先端半導体製造での需要増の恩恵を受けやすい。",
+      "risks": ["米中規制・輸出規制リスク", "為替変動（円高で収益減）", "顧客の設備投資サイクル依存"]
+    },
+    {
+      "ticker": "6954.T",
+      "code": "6954",
+      "name": "ファナック",
+      "market": "JP",
+      "sector": "semiconductor",
+      "subsector": "factory_automation",
+      "themes": ["AI", "manufacturing", "robotics"],
+      "related_us_tickers": ["NVDA", "MSFT"],
+      "related_us_etfs": ["SOXX", "XLK"],
+      "beta_to_soxx": 0.8,
+      "description": "工場自動化・ロボティクスの世界最大手。製造業のAI化・自動化需要の恩恵を受けやすい。",
+      "risks": ["中国景気依存リスク", "為替変動リスク", "設備投資サイクルのずれ"]
+    },
+    {
+      "ticker": "6857.T",
+      "code": "6857",
+      "name": "アドバンテスト",
+      "market": "JP",
+      "sector": "semiconductor",
+      "subsector": "semiconductor_testing",
+      "themes": ["AI", "semiconductor"],
+      "related_us_tickers": ["NVDA", "AMD", "AMAT"],
+      "related_us_etfs": ["SOXX", "SMH"],
+      "beta_to_soxx": 1.2,
+      "description": "半導体テスト装置の世界大手。AI向け先端半導体の需要増とともにテスト需要も拡大。",
+      "risks": ["半導体市況の悪化リスク", "特定顧客（NVIDIA等）への依存", "為替変動リスク"]
+    },
+    {
+      "ticker": "8306.T",
+      "code": "8306",
+      "name": "三菱UFJフィナンシャル・グループ",
+      "market": "JP",
+      "sector": "banking",
+      "subsector": "major_bank",
+      "themes": ["banking", "financial", "interest_rate"],
+      "related_us_tickers": ["JPM", "BAC"],
+      "related_us_etfs": ["XLF"],
+      "beta_to_xlf": 0.9,
+      "description": "日本最大のメガバンク。米国金利上昇・金融セクター好調時に連動しやすい。",
+      "risks": ["国内金利政策リスク", "不良債権リスク", "円安による海外収益変動"]
+    },
+    {
+      "ticker": "8316.T",
+      "code": "8316",
+      "name": "三井住友フィナンシャルグループ",
+      "market": "JP",
+      "sector": "banking",
+      "subsector": "major_bank",
+      "themes": ["banking", "financial", "interest_rate"],
+      "related_us_tickers": ["JPM", "BAC"],
+      "related_us_etfs": ["XLF"],
+      "beta_to_xlf": 0.85,
+      "description": "三大メガバンクの一つ。米国金融セクターとの連動性が高い。",
+      "risks": ["国内金利政策リスク", "与信コスト増加リスク", "海外規制環境の変化"]
+    },
+    {
+      "ticker": "5020.T",
+      "code": "5020",
+      "name": "ENEOSホールディングス",
+      "market": "JP",
+      "sector": "energy",
+      "subsector": "oil_refining",
+      "themes": ["energy", "oil", "commodity"],
+      "related_us_tickers": ["XOM", "CVX"],
+      "related_us_etfs": ["XLE"],
+      "beta_to_xle": 0.7,
+      "description": "日本最大の石油元売り。原油価格や米国エネルギーセクターの動向と連動しやすい。",
+      "risks": ["原油価格の急落リスク", "再生可能エネルギーへの移行リスク", "為替変動（輸入コスト）"]
+    },
+    {
+      "ticker": "5019.T",
+      "code": "5019",
+      "name": "出光興産",
+      "market": "JP",
+      "sector": "energy",
+      "subsector": "oil_refining",
+      "themes": ["energy", "oil", "commodity"],
+      "related_us_tickers": ["XOM", "CVX"],
+      "related_us_etfs": ["XLE"],
+      "beta_to_xle": 0.65,
+      "description": "大手石油元売り。エネルギーセクターの動向に連動しやすい。",
+      "risks": ["原油価格変動リスク", "環境規制強化リスク", "国内需要減少"]
+    },
+    {
+      "ticker": "7203.T",
+      "code": "7203",
+      "name": "トヨタ自動車",
+      "market": "JP",
+      "sector": "auto",
+      "subsector": "automaker",
+      "themes": ["auto", "EV", "manufacturing"],
+      "related_us_tickers": ["F", "GM"],
+      "related_us_etfs": ["XLY"],
+      "beta_to_xly": 0.75,
+      "description": "世界最大の自動車メーカー。米国自動車・消費財セクターとの連動性がある。",
+      "risks": ["EV移行遅れリスク", "円安による原材料費増加", "米国関税リスク", "中国販売不振"]
+    },
+    {
+      "ticker": "7267.T",
+      "code": "7267",
+      "name": "本田技研工業",
+      "market": "JP",
+      "sector": "auto",
+      "subsector": "automaker",
+      "themes": ["auto", "EV", "manufacturing"],
+      "related_us_tickers": ["F", "GM"],
+      "related_us_etfs": ["XLY"],
+      "beta_to_xly": 0.7,
+      "description": "二輪・四輪の大手自動車メーカー。米国市場比率が高く、米国消費財セクターとの連動がある。",
+      "risks": ["EV競争激化リスク", "為替変動リスク", "北米市場の消費動向"]
+    },
+    {
+      "ticker": "9984.T",
+      "code": "9984",
+      "name": "ソフトバンクグループ",
+      "market": "JP",
+      "sector": "tech",
+      "subsector": "investment",
+      "themes": ["AI", "tech", "investment"],
+      "related_us_tickers": ["NVDA", "MSFT", "GOOGL"],
+      "related_us_etfs": ["XLK", "SOXX"],
+      "beta_to_xlk": 1.1,
+      "description": "AI・テクノロジー企業への投資会社。米国テクノロジーセクターの動きと連動しやすい。",
+      "risks": ["ポートフォリオ銘柄の株価変動", "有利子負債リスク", "為替変動リスク"]
+    },
+    {
+      "ticker": "6758.T",
+      "code": "6758",
+      "name": "ソニーグループ",
+      "market": "JP",
+      "sector": "tech",
+      "subsector": "electronics_entertainment",
+      "themes": ["AI", "tech", "consumer_electronics", "entertainment"],
+      "related_us_tickers": ["MSFT", "GOOGL"],
+      "related_us_etfs": ["XLK", "XLY"],
+      "beta_to_xlk": 0.85,
+      "description": "エンタメ・半導体センサー・エレクトロニクスの複合大手。テクノロジーセクターとの連動がある。",
+      "risks": ["ゲーム市場の競争激化", "円高リスク", "エンタメ事業の収益変動"]
+    },
+    {
+      "ticker": "6723.T",
+      "code": "6723",
+      "name": "ルネサスエレクトロニクス",
+      "market": "JP",
+      "sector": "semiconductor",
+      "subsector": "microcontroller",
+      "themes": ["semiconductor", "auto", "IoT"],
+      "related_us_tickers": ["NVDA", "AMD", "AMAT"],
+      "related_us_etfs": ["SOXX", "SMH"],
+      "beta_to_soxx": 1.0,
+      "description": "車載・産業用マイコンの世界大手。半導体セクターと自動車セクター両方に関連する。",
+      "risks": ["車載半導体需要の変動", "自動車産業の電動化リスク", "米国輸出規制"]
+    },
+    {
+      "ticker": "8058.T",
+      "code": "8058",
+      "name": "三菱商事",
+      "market": "JP",
+      "sector": "materials",
+      "subsector": "trading_company",
+      "themes": ["trading", "commodity", "materials"],
+      "related_us_tickers": [],
+      "related_us_etfs": ["XLB", "XLE"],
+      "beta_to_xlb": 0.9,
+      "description": "日本最大の総合商社。資源価格や米国素材・エネルギーセクターに連動しやすい。",
+      "risks": ["商品市況の下落リスク", "為替変動による収益減", "地政学リスク"]
+    },
+    {
+      "ticker": "8031.T",
+      "code": "8031",
+      "name": "三井物産",
+      "market": "JP",
+      "sector": "materials",
+      "subsector": "trading_company",
+      "themes": ["trading", "commodity", "materials"],
+      "related_us_tickers": [],
+      "related_us_etfs": ["XLB", "XLE"],
+      "beta_to_xlb": 0.95,
+      "description": "大手総合商社。資源分野に強みがあり、素材・エネルギーセクターと強く連動。",
+      "risks": ["鉄鉱石等の商品市況下落", "為替変動リスク", "海外投資の減損リスク"]
+    },
+    {
+      "ticker": "4502.T",
+      "code": "4502",
+      "name": "武田薬品工業",
+      "market": "JP",
+      "sector": "healthcare",
+      "subsector": "pharmaceutical",
+      "themes": ["healthcare", "pharmaceutical"],
+      "related_us_tickers": [],
+      "related_us_etfs": ["XLV"],
+      "beta_to_xlv": 0.8,
+      "description": "日本最大の製薬会社。グローバル展開が進んでおり米国ヘルスケアセクターと連動する。",
+      "risks": ["主力薬の特許切れ（パテントクリフ）", "新薬開発の失敗", "薬価改定リスク"]
+    },
+    {
+      "ticker": "8801.T",
+      "code": "8801",
+      "name": "三井不動産",
+      "market": "JP",
+      "sector": "real_estate",
+      "subsector": "property_developer",
+      "themes": ["real_estate", "financial"],
+      "related_us_tickers": [],
+      "related_us_etfs": ["XLRE", "XLF"],
+      "beta_to_xlre": 0.75,
+      "description": "総合不動産の最大手。金利動向など米国の不動産セクターと連動性を持つ。",
+      "risks": ["日銀の利上げによる借入コスト増", "オフィス空室率の上昇", "国内景気の後退"]
+    },
+    {
+      "ticker": "9432.T",
+      "code": "9432",
+      "name": "日本電信電話（NTT）",
+      "market": "JP",
+      "sector": "telecom",
+      "subsector": "telecommunications",
+      "themes": ["telecom", "tech"],
+      "related_us_tickers": [],
+      "related_us_etfs": ["XLC"],
+      "beta_to_xlc": 0.6,
+      "description": "国内通信の最大手。ディフェンシブ銘柄として米国通信サービスセクターと緩やかに連動。",
+      "risks": ["国内通信料金の値下げ圧力", "IOWN構想等の投資負担過多", "政府保有株の売却"]
+    }
+  ],
+  "jp_indices": [
+    {"ticker": "^N225", "name": "日経平均", "description": "日本の代表的株価指数"},
+    {"ticker": "^TOPX", "name": "TOPIX", "description": "東証全体の株価指数"}
+  ],
+  "sector_map": {
+    "semiconductor": {
+      "name_ja": "半導体",
+      "us_etf": "SOXX",
+      "us_stocks": ["NVDA", "AMD", "AMAT", "LRCX", "TSM"],
+      "jp_stocks": ["8035.T", "6857.T", "6723.T", "6954.T"]
+    },
+    "banking": {
+      "name_ja": "銀行・金融",
+      "us_etf": "XLF",
+      "us_stocks": ["JPM", "BAC"],
+      "jp_stocks": ["8306.T", "8316.T"]
+    },
+    "energy": {
+      "name_ja": "エネルギー",
+      "us_etf": "XLE",
+      "us_stocks": ["XOM", "CVX"],
+      "jp_stocks": ["5020.T", "5019.T"]
+    },
+    "auto": {
+      "name_ja": "自動車",
+      "us_etf": "XLY",
+      "us_stocks": ["F", "GM"],
+      "jp_stocks": ["7203.T", "7267.T"]
+    },
+    "tech": {
+      "name_ja": "テクノロジー",
+      "us_etf": "XLK",
+      "us_stocks": ["MSFT", "GOOGL"],
+      "jp_stocks": ["9984.T", "6758.T"]
+    },
+    "healthcare": {
+      "name_ja": "ヘルスケア・医薬品",
+      "us_etf": "XLV",
+      "us_stocks": [],
+      "jp_stocks": ["4502.T"]
+    },
+    "materials": {
+      "name_ja": "素材・商社",
+      "us_etf": "XLB",
+      "us_stocks": [],
+      "jp_stocks": ["8058.T", "8031.T"]
+    },
+    "real_estate": {
+      "name_ja": "不動産",
+      "us_etf": "XLRE",
+      "us_stocks": [],
+      "jp_stocks": ["8801.T"]
+    },
+    "telecom": {
+      "name_ja": "通信サービス",
+      "us_etf": "XLC",
+      "us_stocks": [],
+      "jp_stocks": ["9432.T"]
+    }
+  }
+}
